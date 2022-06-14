@@ -15,8 +15,13 @@ $(document).ready( function (){
         $(".jQuery-hidden").toggle(1000);
     });
 
-    $(".click3").clic( function(){
+    $(".click3").click( function(){
         $(".operators-showing").toggle(1000);
+        $(".operators-hidden").toggle(1000);
+    });
+
+    $(".click4").click( function(){
+        $(".function-showing").toggle(1000);
     });
 
 });
