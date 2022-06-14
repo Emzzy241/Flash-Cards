@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellowgreen;
+}
+
+.container{
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.click{
+    color: blue;
+    cursor: pointer;
+}
+.click:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.subtopic{
+    text-align: center;
+}
