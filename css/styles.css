@@ -16,15 +16,51 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.click{
+span{
     color: blue;
     cursor: pointer;
 }
-.click:hover{
+span:hover{
     text-decoration: underline;
     color: red;
 }
 
 .subtopic{
     text-align: center;
+}
+
+.var-showing{
+    display: none;
+}
+
+.java-showing{
+    display: none;
+}
+
+.jQuery-showing{
+    display: none;
+}
+
+.operators-showing{
+    display: none;
+}
+
+.function-showing{
+    display: none;
+}
+
+.method-showing{
+    display: none;
+}
+
+.argument-showing{
+    display: none;
+}
+
+.parameters-showing{
+    display: none;
+}
+
+.chain-showing{
+    display: none;
 }
