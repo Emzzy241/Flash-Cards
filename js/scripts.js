@@ -26,7 +26,23 @@ $(document).ready( function (){
     });
 
     $(".click5").click( function(){
-        $(".methods-showing")
+        $(".method-showing").toggle(1000);
+        $(".method-hidden").toggle(1000);
+    });
+
+    $(".click6").click( function(){
+        $(".argument-showing").toggle(1000);
+        $(".argument-hidden").toggle(1000);
+    });
+
+    $(".click7").click( function(){
+        $(".parameters-showing").toggle(1000);
+        $(".parameters-hidden").toggle(1000);
+    });
+
+    $(".click8").click( function(){
+        $(".chain-showing").toggle(1000);
+        $(".chain-hidden").toggle(1000);
     })
 
 });
