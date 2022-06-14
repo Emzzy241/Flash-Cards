@@ -22,6 +22,11 @@ $(document).ready( function (){
 
     $(".click4").click( function(){
         $(".function-showing").toggle(1000);
+        $(".function-hidden").toggle(1000);
     });
+
+    $(".click5").click( function(){
+        $(".methods-showing")
+    })
 
 });
